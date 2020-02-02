@@ -895,9 +895,9 @@ ApplicationMain.create = function(config) {
 	ManifestResources.init(config);
 	var _this = app.meta;
 	if(__map_reserved["build"] != null) {
-		_this.setReserved("build","60");
+		_this.setReserved("build","61");
 	} else {
-		_this.h["build"] = "60";
+		_this.h["build"] = "61";
 	}
 	var _this1 = app.meta;
 	if(__map_reserved["company"] != null) {
@@ -8419,7 +8419,7 @@ ManifestResources.init = function(config) {
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$nokiafc22_$ttf);
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$monsterrat_$ttf);
 	var bundle;
-	var data = "{\"name\":null,\"assets\":\"aoy4:pathy34:assets%2Fdata%2Fdata-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR2i166448R3y4:FONTy9:classNamey43:__ASSET__assets_fonts_sigmarone_regular_ttfR5y38:assets%2Ffonts%2FSigmarOne_Regular.ttfR6tgoR0y32:assets%2Fimages%2Fbackground.pngR2i2985R3y5:IMAGER5R11R6tgoR0y37:assets%2Fimages%2Fbg%2Ffloor_blue.pngR2i151R3R12R5R13R6tgoR0y38:assets%2Fimages%2Fbg%2Ffloor_green.pngR2i212R3R12R5R14R6tgoR0y36:assets%2Fimages%2Fbg%2Ffloor_mix.pngR2i181R3R12R5R15R6tgoR0y40:assets%2Fimages%2Fbg%2Ffull_level_bg.pngR2i869R3R12R5R16R6tgoR0y36:assets%2Fimages%2Fentities%2Fdad.pngR2i1804R3R12R5R17R6tgoR0y43:assets%2Fimages%2Fentities%2Fkid_avatar.pngR2i1531R3R12R5R18R6tgoR0y41:assets%2Fimages%2Fentities%2Fkid_baby.pngR2i1400R3R12R5R19R6tgoR0y43:assets%2Fimages%2Fentities%2Fkid_dragon.pngR2i1821R3R12R5R20R6tgoR0y36:assets%2Fimages%2Fobjects%2Fcrib.pngR2i324R3R12R5R21R6tgoR0y40:assets%2Fimages%2Fobjects%2Fdog_bowl.pngR2i141R3R12R5R22R6tgoR0y40:assets%2Fimages%2Fobjects%2Fdog_door.pngR2i252R3R12R5R23R6tgoR0y36:assets%2Fimages%2Fobjects%2Flamp.pngR2i718R3R12R5R24R6tgoR0y38:assets%2Fimages%2Fobjects%2Fstairs.pngR2i223R3R12R5R25R6tgoR0y37:assets%2Fimages%2Fobjects%2Fstand.pngR2i320R3R12R5R26R6tgoR0y42:assets%2Fimages%2Fobjects%2Ftablechair.pngR2i434R3R12R5R27R6tgoR0y42:assets%2Fimages%2Fobjects%2Ftall_clock.pngR2i1039R3R12R5R28R6tgoR0y34:assets%2Fimages%2Fobjects%2Ftv.pngR2i524R3R12R5R29R6tgoR0y36:assets%2Fimages%2Fobjects%2Fvase.pngR2i475R3R12R5R30R6tgoR0y48:assets%2Fimages%2Fobstacles%2Fclown_painting.pngR2i598R3R12R5R31R6tgoR0y37:assets%2Fimages%2Fobstacles%2Fdog.pngR2i318R3R12R5R32R6tgoR0y36:assets%2Fmusic%2Fmusic-goes-here.txtR2zR3R4R5R33R6tgoR2i337180R3y5:SOUNDR5y38:assets%2Fsounds%2Fbackground_music.oggy9:pathGroupaR35hR6tgoR2i47125R3R34R5y28:assets%2Fsounds%2Frepair.oggR36aR37hR6tgoR2i13527R3R34R5y27:assets%2Fsounds%2Fsmash.oggR36aR38hR6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R39R6tgoR2i21720R3R34R5y33:assets%2Fsounds%2Fwhile_smash.oggR36aR40hR6tgoR2i2114R3y5:MUSICR5y26:flixel%2Fsounds%2Fbeep.mp3R36aR42y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R41R5y28:flixel%2Fsounds%2Fflixel.mp3R36aR44y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i5794R3R34R5R43R36aR42R43hgoR2i33629R3R34R5R45R36aR44R45hgoR2i15744R3R7R8y35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R7R8y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R12R5R50R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R12R5R51R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	var data = "{\"name\":null,\"assets\":\"aoy4:pathy34:assets%2Fdata%2Fdata-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR2i166448R3y4:FONTy9:classNamey43:__ASSET__assets_fonts_sigmarone_regular_ttfR5y38:assets%2Ffonts%2FSigmarOne_Regular.ttfR6tgoR0y32:assets%2Fimages%2Fbackground.pngR2i2985R3y5:IMAGER5R11R6tgoR0y37:assets%2Fimages%2Fbg%2Ffloor_blue.pngR2i151R3R12R5R13R6tgoR0y38:assets%2Fimages%2Fbg%2Ffloor_green.pngR2i212R3R12R5R14R6tgoR0y36:assets%2Fimages%2Fbg%2Ffloor_mix.pngR2i181R3R12R5R15R6tgoR0y40:assets%2Fimages%2Fbg%2Ffull_level_bg.pngR2i869R3R12R5R16R6tgoR0y36:assets%2Fimages%2Fentities%2Fdad.pngR2i1804R3R12R5R17R6tgoR0y43:assets%2Fimages%2Fentities%2Fkid_avatar.pngR2i1531R3R12R5R18R6tgoR0y41:assets%2Fimages%2Fentities%2Fkid_baby.pngR2i1400R3R12R5R19R6tgoR0y43:assets%2Fimages%2Fentities%2Fkid_dragon.pngR2i1821R3R12R5R20R6tgoR0y36:assets%2Fimages%2Fobjects%2Fcrib.pngR2i324R3R12R5R21R6tgoR0y40:assets%2Fimages%2Fobjects%2Fdog_bowl.pngR2i141R3R12R5R22R6tgoR0y40:assets%2Fimages%2Fobjects%2Fdog_door.pngR2i252R3R12R5R23R6tgoR0y36:assets%2Fimages%2Fobjects%2Flamp.pngR2i718R3R12R5R24R6tgoR0y38:assets%2Fimages%2Fobjects%2Fstairs.pngR2i223R3R12R5R25R6tgoR0y37:assets%2Fimages%2Fobjects%2Fstand.pngR2i320R3R12R5R26R6tgoR0y42:assets%2Fimages%2Fobjects%2Ftablechair.pngR2i434R3R12R5R27R6tgoR0y42:assets%2Fimages%2Fobjects%2Ftall_clock.pngR2i1039R3R12R5R28R6tgoR0y34:assets%2Fimages%2Fobjects%2Ftv.pngR2i524R3R12R5R29R6tgoR0y36:assets%2Fimages%2Fobjects%2Fvase.pngR2i475R3R12R5R30R6tgoR0y48:assets%2Fimages%2Fobstacles%2Fclown_painting.pngR2i598R3R12R5R31R6tgoR0y37:assets%2Fimages%2Fobstacles%2Fdog.pngR2i318R3R12R5R32R6tgoR2i337180R3y5:SOUNDR5y37:assets%2Fmusic%2Fbackground_music.oggy9:pathGroupaR34hR6tgoR2i1002981R3R33R5y31:assets%2Fmusic%2Fmenu_music.oggR35aR36hR6tgoR0y36:assets%2Fmusic%2Fmusic-goes-here.txtR2zR3R4R5R37R6tgoR2i47125R3R33R5y28:assets%2Fsounds%2Frepair.oggR35aR38hR6tgoR2i13527R3R33R5y27:assets%2Fsounds%2Fsmash.oggR35aR39hR6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R40R6tgoR2i21720R3R33R5y33:assets%2Fsounds%2Fwhile_smash.oggR35aR41hR6tgoR2i2114R3y5:MUSICR5y26:flixel%2Fsounds%2Fbeep.mp3R35aR43y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R42R5y28:flixel%2Fsounds%2Fflixel.mp3R35aR45y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i5794R3R33R5R44R35aR43R44hgoR2i33629R3R33R5R46R35aR45R46hgoR2i15744R3R7R8y35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R7R8y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R12R5R51R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R12R5R52R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	var manifest = lime_utils_AssetManifest.parse(data,ManifestResources.rootPath);
 	var library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -8802,16 +8802,17 @@ MenuState.prototype = $extend(flixel_FlxState.prototype,{
 	_btnOptions: null
 	,create: function() {
 		flixel_FlxState.prototype.create.call(this);
+		flixel_FlxG.sound.playMusic("assets/music/menu_music.ogg");
 		flixel_FlxG.camera.bgColor = -7763575;
 		var bg = new flixel_FlxSprite(0,0,"assets/images/background.png");
 		this.add(bg);
-		var _txtTitle = new flixel_text_FlxText(20,0,0,"ReParent");
+		var _txtTitle = new flixel_text_FlxText(20,-8,0,"ReParent");
 		_txtTitle.setFormat("assets/fonts/SigmarOne_Regular.ttf",24);
 		_txtTitle.set_alignment("center");
 		_txtTitle.screenCenter(flixel_util_FlxAxes.X);
 		_txtTitle.set_color(-16777216);
 		this.add(_txtTitle);
-		var _txtTitle2 = new flixel_text_FlxText(20,0,0,"ReParent");
+		var _txtTitle2 = new flixel_text_FlxText(20,-8,0,"ReParent");
 		_txtTitle2.setFormat("assets/fonts/SigmarOne_Regular.ttf",26);
 		_txtTitle2.set_alignment("center");
 		_txtTitle2.screenCenter(flixel_util_FlxAxes.X);
@@ -8823,10 +8824,23 @@ MenuState.prototype = $extend(flixel_FlxState.prototype,{
 		var _txtCredit = new flixel_text_FlxText(20,0,0,"By RonL and OdedRt");
 		_txtCredit.setFormat("assets/fonts/SigmarOne_Regular.ttf",10);
 		_txtCredit.set_color(-1);
-		_txtCredit.setPosition(0,72.);
+		_txtCredit.setPosition(0,24.);
 		_txtCredit.set_alignment("center");
 		_txtCredit.screenCenter(flixel_util_FlxAxes.X);
 		this.add(_txtCredit);
+		var _txtInstructions = new flixel_text_FlxText(0,0,0,"[Arrows] Move | [X] Repair | [Z] Pick Up/Drop Kid");
+		_txtInstructions.set_color(-1);
+		_txtInstructions.setPosition(6,76.);
+		_txtInstructions.set_alignment("center");
+		var Color = -16777216;
+		if(Color == null) {
+			Color = 0;
+		}
+		_txtInstructions.set_borderStyle(flixel_text_FlxTextBorderStyle.SHADOW);
+		_txtInstructions.set_borderColor(Color);
+		_txtInstructions.set_borderSize(1);
+		_txtInstructions.set_borderQuality(1);
+		this.add(_txtInstructions);
 	}
 	,update: function(elapsed) {
 		flixel_FlxState.prototype.update.call(this,elapsed);
@@ -8967,7 +8981,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		_this.height = 0;
 		flixel_FlxState.prototype.create.call(this);
 		Globals.destroyedObjects = 0;
-		flixel_FlxG.sound.playMusic("assets/sounds/background_music.ogg",0.25);
+		flixel_FlxG.sound.playMusic("assets/music/background_music.ogg",0.25);
 		this.add(new flixel_FlxSprite(0,0,"assets/images/bg/full_level_bg.png"));
 		this.add(new flixel_FlxSprite(256,0,"assets/images/bg/full_level_bg.png"));
 		this.teleporterMap = new haxe_ds_IntMap();
@@ -9045,17 +9059,31 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		this6.set(k2,v3);
 		this._bars.add(this.entityBars.h[this._player.__id__]);
 		this.add(this._bars);
-		this._destructionPercent = new flixel_text_FlxText(5,5,100);
-		this._destructionPercent.set_size(6);
-		this._destructionPercent.set_antialiasing(true);
+		this._destructionPercent = new flixel_text_FlxText(0,0);
 		this._destructionPercent.scrollFactor.set(0,0);
-		this._destructionPercent.set_color(-16777216);
+		this._destructionPercent.set_color(-1);
+		var _this1 = this._destructionPercent;
+		var Color = -16777216;
+		if(Color == null) {
+			Color = 0;
+		}
+		_this1.set_borderStyle(flixel_text_FlxTextBorderStyle.SHADOW);
+		_this1.set_borderColor(Color);
+		_this1.set_borderSize(1);
+		_this1.set_borderQuality(1);
 		this.add(this._destructionPercent);
-		this._gameOverTimerLabel = new flixel_text_FlxText(192,5,120);
-		this._gameOverTimerLabel.set_size(6);
-		this._gameOverTimerLabel.set_antialiasing(true);
+		this._gameOverTimerLabel = new flixel_text_FlxText(182,0);
 		this._gameOverTimerLabel.scrollFactor.set(0,0);
-		this._gameOverTimerLabel.set_color(-16777216);
+		this._gameOverTimerLabel.set_color(-1);
+		var _this2 = this._gameOverTimerLabel;
+		var Color1 = -16777216;
+		if(Color1 == null) {
+			Color1 = 0;
+		}
+		_this2.set_borderStyle(flixel_text_FlxTextBorderStyle.SHADOW);
+		_this2.set_borderColor(Color1);
+		_this2.set_borderSize(1);
+		_this2.set_borderQuality(1);
 		this.add(this._gameOverTimerLabel);
 		flixel_FlxG.camera.setScrollBounds(0,512,0,48 * this.numOfFloors);
 		flixel_FlxG.camera.follow(this._player,flixel_FlxCameraFollowStyle.PLATFORMER,5);
@@ -72713,7 +72741,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 69891;
+	this.version = 848379;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -118329,8 +118357,9 @@ AssetPaths.tv__png = "assets/images/objects/tv.png";
 AssetPaths.vase__png = "assets/images/objects/vase.png";
 AssetPaths.clown_painting__png = "assets/images/obstacles/clown_painting.png";
 AssetPaths.dog__png = "assets/images/obstacles/dog.png";
+AssetPaths.background_music__ogg = "assets/music/background_music.ogg";
+AssetPaths.menu_music__ogg = "assets/music/menu_music.ogg";
 AssetPaths.music_goes_here__txt = "assets/music/music-goes-here.txt";
-AssetPaths.background_music__ogg = "assets/sounds/background_music.ogg";
 AssetPaths.repair__ogg = "assets/sounds/repair.ogg";
 AssetPaths.smash__ogg = "assets/sounds/smash.ogg";
 AssetPaths.sounds_go_here__txt = "assets/sounds/sounds-go-here.txt";
