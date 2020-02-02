@@ -8820,9 +8820,9 @@ MenuState.prototype = $extend(flixel_FlxState.prototype,{
 		_btnPlay.set_x(flixel_FlxG.width / 2 - _btnPlay.get_width() / 2);
 		_btnPlay.set_y(flixel_FlxG.height / 2 - _btnPlay.get_height());
 		this.add(_btnPlay);
-		var _txtCredit = new flixel_text_FlxText(20,0,0,"By RonL and Oded Rosenblatt");
-		_txtCredit.setFormat("assets/fonts/SigmarOne_Regular.ttf",12);
-		_txtCredit.set_color(-16777216);
+		var _txtCredit = new flixel_text_FlxText(20,0,0,"By RonL and OdedRt");
+		_txtCredit.setFormat("assets/fonts/SigmarOne_Regular.ttf",10);
+		_txtCredit.set_color(-1);
 		_txtCredit.setPosition(0,72.);
 		_txtCredit.set_alignment("center");
 		_txtCredit.screenCenter(flixel_util_FlxAxes.X);
@@ -8966,6 +8966,7 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		_this.width = 0;
 		_this.height = 0;
 		flixel_FlxState.prototype.create.call(this);
+		Globals.destroyedObjects = 0;
 		flixel_FlxG.sound.playMusic("assets/sounds/background_music.ogg",0.25);
 		this.add(new flixel_FlxSprite(0,0,"assets/images/bg/full_level_bg.png"));
 		this.add(new flixel_FlxSprite(256,0,"assets/images/bg/full_level_bg.png"));
@@ -8994,17 +8995,17 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 			var i = _g2++;
 			var floor = Math.floor(i / 5);
 			var furniture = new Furniture(this.objPositions[floor][i % 5] * 16,floor,Type.createEnumIndex(FurnitureType,flixel_FlxG.random.int(0,FurnitureType.__empty_constructs__.slice().length - 1),null));
-			var this11 = this.furnitureMap;
+			var this2 = this.furnitureMap;
 			var key = furniture.getCurrentFloor();
-			if(!this11.h.hasOwnProperty(key)) {
-				var this12 = this.furnitureMap;
+			if(!this2.h.hasOwnProperty(key)) {
+				var this3 = this.furnitureMap;
 				var k1 = furniture.getCurrentFloor();
 				var v1 = [];
-				this12.h[k1] = v1;
+				this3.h[k1] = v1;
 			}
-			var this13 = this.furnitureMap;
+			var this4 = this.furnitureMap;
 			var key1 = furniture.getCurrentFloor();
-			this13.h[key1].push(furniture);
+			this4.h[key1].push(furniture);
 			this._furnitures.add(furniture);
 		}
 		this.add(this._furnitures);
@@ -9033,15 +9034,15 @@ PlayState.prototype = $extend(flixel_FlxState.prototype,{
 		this.add(this._cribs);
 		this._bars = new flixel_group_FlxTypedGroup();
 		this._kids.forEach(function(kid) {
-			var this14 = _gthis.entityBars;
+			var this5 = _gthis.entityBars;
 			var v2 = new flixel_ui_FlxBar(kid.x,kid.y,flixel_ui_FlxBarFillDirection.LEFT_TO_RIGHT,16,5,kid,"actionProgress");
-			this14.set(kid,v2);
+			this5.set(kid,v2);
 			_gthis._bars.add(_gthis.entityBars.h[kid.__id__]);
 		});
-		var this15 = this.entityBars;
+		var this6 = this.entityBars;
 		var k2 = this._player;
 		var v3 = new flixel_ui_FlxBar(0,0,flixel_ui_FlxBarFillDirection.LEFT_TO_RIGHT,16,5,this._player,"actionProgress");
-		this15.set(k2,v3);
+		this6.set(k2,v3);
 		this._bars.add(this.entityBars.h[this._player.__id__]);
 		this.add(this._bars);
 		this._destructionPercent = new flixel_text_FlxText(5,5,100);
@@ -72712,7 +72713,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 210118;
+	this.version = 69891;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
